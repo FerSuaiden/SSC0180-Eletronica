@@ -3,5 +3,5 @@ Trabalhos e projetos eletrônica ICMC
 
 | Quantidade     | Componentes | Especificações | Valor |
 | ---      | ---       | ---      | ---     |
-| Backtick | `         | algo     | algo    |
+| Backtick | aaa         | algo     | algo    |
 | Pipe     | \|        | algo     | algo    |
