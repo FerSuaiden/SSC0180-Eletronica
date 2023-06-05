@@ -3,7 +3,8 @@ Trabalhos e projetos eletrônica ICMC
 
 | Quantidade     | Componentes | Especificações | Valor |
 | ---      | ---       | ---      | ---     |
-| 1 | Transformador  | 12v     |  Emprestado   |
+| 1 | Tomada  | 127V     |  ainda não sabemos   |
+| 1 | Transformador  | 12V     |  Emprestado   |
 |4|[Diodo](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html)|Corrente: 1A/Tensão Reversa 1000V| R$ 0,23 X 4 = R$ 0,92|
 | 1     | [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html)        | 470uF / 25V     | R$ 0,50  |
 | 1     | [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html)        | Resistência: 5K Potência: 0,2W   | R$ 1,99    |
