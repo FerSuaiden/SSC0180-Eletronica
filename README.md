@@ -12,3 +12,4 @@ Trabalhos e projetos eletrônica ICMC
 | 1     | Diodo de Zener        | algo     | algo    |
 | 1     | Fusível        | algo     | algo    |
 | 1     | [LED Vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html)       | Diâmetro de 5mm, Tensão de 2V e Corrente 20mA      | R$ 0,24    |
+| Total    |    |     | R$ 0,24    |
