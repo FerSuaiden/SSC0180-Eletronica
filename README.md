@@ -8,7 +8,7 @@ Trabalhos e projetos eletrônica ICMC
 | 1     | Capacitor        | algo     | algo    |
 | 1     | Potenciômetro        | algo     | algo    |
 | 1     | [Resistor 1k ohms](https://www.baudaeletronica.com.br/resistor-1k-5-1-4w.html)       | 1000 ohms     | R$0,05    |
-| 1     | Resistor        | algo     | algo    |
-| 1     | Diodo de Zenner        | algo     | algo    |
+| 1     | [Resistor 2k ohms](https://www.baudaeletronica.com.br/resistor-2k-5-1-4w.html)     | 2000 ohms     | R$0,05    |
+| 1     | Diodo de Zener        | algo     | algo    |
 | 1     | Fusível        | algo     | algo    |
 | 1     | \|        | algo     | algo    |
