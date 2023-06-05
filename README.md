@@ -3,7 +3,7 @@ Trabalhos e projetos eletrônica ICMC
 
 | Quantidade     | Componentes | Especificações | Valor |
 | ---      | ---       | ---      | ---     |
-| 1 | [Transformador](https://produto.mercadolivre.com.br/MLB-2097098947-transformador-trafo-2424v-1a-bivolt-_JM#position=11&search_layout=stack&type=item&tracking_id=6b406ed3-7fd9-4017-9c94-2300d04464ba)  | 12v     |  Emprestado   |
+| 1 | [Transformador]  | 12v     |  Emprestado   |
 |4|[Diodo](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html)|Corrente: 1A/Tensão Reversa 1000V| R$ 0,23 X 4 = R$ 0,92|
 | 1     | [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html)        | 470uF / 25V     | R$ 0,50  |
 | 1     | [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html)        | Resistência: 5K Potência: 0,2W   | R$ 1,99    |
