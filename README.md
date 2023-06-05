@@ -11,4 +11,4 @@ Trabalhos e projetos eletrônica ICMC
 | 1     | [Resistor 2k ohms](https://www.baudaeletronica.com.br/resistor-2k-5-1-4w.html)     | 2000 ohms     | R$0,05    |
 | 1     | Diodo de Zener        | algo     | algo    |
 | 1     | Fusível        | algo     | algo    |
-| 1     | \|        | algo     | algo    |
+| 1     | [LED Vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html)       | Diâmetro de 5mm, Tensão de 2V e Corrente 20mA      | R$ 0,24    |
