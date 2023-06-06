@@ -15,4 +15,4 @@ Trabalhos e projetos eletrônica ICMC
 | 1     | [LED Vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html)       | Tensão de 2V e Corrente 20mA      | R$ 0,24    |
 | 1     | [Transistor](https://www.baudaeletronica.com.br/transistor-npn-bc337.html)       |  Transistor NPN - BC337      | R$ 0,36   |
 
-Valor Total: R$ 45,46
+Valor Total: R$ 8.79
