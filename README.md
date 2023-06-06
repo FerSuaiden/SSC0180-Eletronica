@@ -7,7 +7,7 @@ Trabalhos e projetos eletrônica ICMC
 | 1 | Transformador  | 12V     |  Emprestado (do professor)   |
 |4|[Ponte Retificadora](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html)| KBPC1010 | R$ R$ 4,90 |
 | 1     | [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html)        | 470uF / 25V     | R$ 0,55  |
-| 1     | [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html)        | Resistência: 5K Potência: 0,2W   | R$ 1,99    |
+| 1     | [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html)        | Resistência: 5K  | R$ 2,21    |
 | 1     | [Resistor 1k ohms](https://www.baudaeletronica.com.br/resistor-1k-5-1-4w.html)       | 1000 ohms     | R$ 0,05    |
 | 2     | [Resistor 2k ohms](https://www.baudaeletronica.com.br/resistor-2k-5-1-4w.html)     | 2000 ohms     | R$ 0,05 X 2 = R$ 0,10   |
 | 1     | [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html)        | Tensão de regulação: 13V Potência: 500mW     |  R$ 0,08   |
