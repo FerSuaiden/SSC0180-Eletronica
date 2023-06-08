@@ -12,7 +12,7 @@ Trabalhos e projetos eletrônica ICMC
 | 1     | [Resistor 2k ohms](https://www.baudaeletronica.com.br/produto/resistor-2k0-5-12w.html)     | 2000 ohms 1/2W    | R$ 0,15   |
 | 1     | [Resistor 2k ohms](https://www.baudaeletronica.com.br/produto/resistor-2k-5-18w.html)     | 2000 ohms 1/8W    | R$ 0,05   |
 | 1     | [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html)       | Tensão de regulação: 13V Potência: 500mW     |  R$ 0,08   |
-| 1     | [Fusível](https://www.baudaeletronica.com.br/produto/fusivel-lamina-mini-3a.html)     | 3A     | R$ 0,30    |
+| 1     | [Fusível](https://www.baudaeletronica.com.br/produto/fusivel-lamina-mini-3a.html)     | > 0,2 A     | R$ 0,30    |
 | 1     | [LED Vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html)       | Tensão de 2V e Corrente 20mA      | R$ 0,24    |
 | 1     | [Transistor](https://www.baudaeletronica.com.br/transistor-npn-bc337.html)       |  Transistor NPN - BC337      | R$ 0,36   |
 
