@@ -2,7 +2,14 @@
 ## Projeto: Fonte de Tensão Regulável 3v-12v (100mA)
 O projeto foi desenvolvido com o objetivo de construir uma fonte de tensão ajustável que funciona no regime de corrente contínua (DC) de 100mA.
 ### Esquema de Funcionamento
+Segue abaixo o esquema do princípio de funcionamento da fonte de tensão: 
 
+![Diagrama de Blocos](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/955e2f46-ec82-4135-9dd8-f7ecabe35f7b)
+
+- Transformador : Transforma a tensão e a corrente elétrica AC para um valor utilizável e positivo em AC
+- Retificação: Retifica os pulsos de modo a produzir uma saída polarizada DC.
+- Filtragem: Filtra a tensão tornando a corrente contínua.
+- Regulação de Tensão: Regula a saída de modo a ter uma tensão constante.
 
 ### Teoria
 
