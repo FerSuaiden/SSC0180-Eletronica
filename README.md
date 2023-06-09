@@ -8,7 +8,8 @@ O projeto foi desenvolvido com o objetivo de construir uma fonte de tensão ajus
 
 
 ### Circuito FALSTAD
-O circuito abaixo representa um esquema simplificado do comportamento da Fonte de Tensão Regulável.
+O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulável. Por meio desse mecanismo, é possível prever o comportamento de cada um dos componentes eletrônicos no circuito e evitar erros de forma geral.
+
 ![Circuito FALSTAD](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/148d2203-fdfb-4428-b72e-a01672b71af1)
 
 [Link do Circuito](https://tinyurl.com/2yulsxj7)
