@@ -3,8 +3,7 @@ Trabalhos e projetos eletrônica ICMC
 
 | Quantidade     | Componentes | Especificações | Valor |
 | ---      | ---       | ---      | ---     |
-| 1 | Tomada  | 127V     |  Ainda não sabemos   |
-| 1 | Transformador Bivolt(https://produto.mercadolivre.com.br/MLB-2601528464-transformador-trafo-1212v-500ma-bivolt-_JM?matt_tool=92309335&matt_word=&matt_source=bing&matt_campaign=MLB_ML_BING_AO_HOME%20%26%20INDUSTRY-ALL-ALL_X_PLA_ALLB_TXS_ALL&matt_campaign_id=382858298&matt_ad_group=HOME%20%26%20INDUSTRY&matt_match_type=e&matt_network=o&matt_device=c&matt_keyword=default&msclkid=3e355d88c28f1953b3eb390bbee188b1&utm_source=bing&utm_medium=cpc&utm_campaign=MLB_ML_BING_AO_HOME%20%26%20INDUSTRY-ALL-ALL_X_PLA_ALLB_TXS_ALL&utm_term=4579053617522482&utm_content=HOME%20%26%20INDUSTRY)  | 12V/24V     |  R$ 28,99   |
+| 1 | [Transformador Bivolt](https://produto.mercadolivre.com.br/MLB-2601528464-transformador-trafo-1212v-500ma-bivolt-_JM)  | 12V/24V     |  R$ 28,99   |
 | 1 |[Ponte Retificadora](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html)| KBPC1010 | R$ 4,90 |
 | 1     | [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html)        | 470uF / 25V     | R$ 0,55  |
 | 1     | [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html)        | Resistência: 5K  | R$ 2,21    |
