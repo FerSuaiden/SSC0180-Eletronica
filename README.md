@@ -4,7 +4,7 @@ Trabalhos e projetos eletrônica ICMC
 | Quantidade     | Componentes | Especificações | Valor |
 | ---      | ---       | ---      | ---     |
 | 1 | Tomada  | 127V     |  Ainda não sabemos   |
-| 1 | Transformador  | 12V     |  Emprestado (do professor)   |
+| 1 | Transformador Bivolt(https://produto.mercadolivre.com.br/MLB-2601528464-transformador-trafo-1212v-500ma-bivolt-_JM?matt_tool=92309335&matt_word=&matt_source=bing&matt_campaign=MLB_ML_BING_AO_HOME%20%26%20INDUSTRY-ALL-ALL_X_PLA_ALLB_TXS_ALL&matt_campaign_id=382858298&matt_ad_group=HOME%20%26%20INDUSTRY&matt_match_type=e&matt_network=o&matt_device=c&matt_keyword=default&msclkid=3e355d88c28f1953b3eb390bbee188b1&utm_source=bing&utm_medium=cpc&utm_campaign=MLB_ML_BING_AO_HOME%20%26%20INDUSTRY-ALL-ALL_X_PLA_ALLB_TXS_ALL&utm_term=4579053617522482&utm_content=HOME%20%26%20INDUSTRY)  | 12V/24V     |  R$ 28,99   |
 | 1 |[Ponte Retificadora](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html)| KBPC1010 | R$ 4,90 |
 | 1     | [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html)        | 470uF / 25V     | R$ 0,55  |
 | 1     | [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html)        | Resistência: 5K  | R$ 2,21    |
@@ -12,7 +12,7 @@ Trabalhos e projetos eletrônica ICMC
 | 1     | [Resistor 2k ohms](https://www.baudaeletronica.com.br/produto/resistor-2k0-5-12w.html)     | 2000 ohms 1/2W    | R$ 0,15   |
 | 1     | [Resistor 2k ohms](https://www.baudaeletronica.com.br/produto/resistor-2k-5-18w.html)     | 2000 ohms 1/8W    | R$ 0,05   |
 | 1     | [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html)       | Diodo Zener BZX55C 13V/0,5W     |  R$ 0,08   |
-| 1     | [Fusível](https://www.baudaeletronica.com.br/produto/fusivel-lamina-mini-3a.html)     |  1 A     | R$ 0,30    |
+| 1     | [Fusível](https://www.baudaeletronica.com.br/produto/pico-fusivel-1a-8mm.html)     |  1 A     | R$ 0,30    |
 | 1     | [LED Vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html)       | Tensão de 2V e Corrente 20mA      | R$ 0,24    |
 | 1     | [Transistor](https://www.baudaeletronica.com.br/transistor-npn-bc337.html)       |  Transistor NPN - BC337      | R$ 0,36   |
 
