@@ -7,8 +7,6 @@ O projeto foi desenvolvido com o objetivo de construir uma fonte de tensão ajus
 
 ### Circuito FALSTAD
 
-![Imagem do circuito no FALSTAD](https://drive.google.com/file/d/1sIe9bZjh5Q9ZTO2l7zi5X31NifjcSNkU/view?usp=sharing)
-
 ### Circuito PCB no EAGLE
 
 ### Componentes Eletrônicos
