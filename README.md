@@ -37,6 +37,6 @@ Valor Total: R$ 39,03
 ### Referências Bibliográficas
 
 ### Resposáveis
-Felipe da Costa Coqueiro
-Fernando
-Guilherme
+- Felipe da Costa Coqueiro
+- Fernando
+- Guilherme
