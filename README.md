@@ -8,7 +8,10 @@ O projeto foi desenvolvido com o objetivo de construir uma fonte de tensão ajus
 
 
 ### Circuito FALSTAD
-![Circuito FALSTAD](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/73fc6291-b543-4194-97e4-fcc12b2dfe07)
+O circuito abaixo representa um esquema simplificado do comportamento da Fonte de Tensão Regulável.
+![Circuito FALSTAD](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/148d2203-fdfb-4428-b72e-a01672b71af1)
+
+[Link do Circuito](https://tinyurl.com/2yulsxj7)
 
 ### Circuito PCB no EAGLE
 
