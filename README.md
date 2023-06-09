@@ -7,6 +7,8 @@ O projeto foi desenvolvido com o objetivo de construir uma fonte de tensão ajus
 
 ### Circuito FALSTAD
 
+![Imagem do circuito no FALSTAD](https://drive.google.com/file/d/1sIe9bZjh5Q9ZTO2l7zi5X31NifjcSNkU/view?usp=sharing)
+
 ### Circuito PCB no EAGLE
 
 ### Componentes Eletrônicos
@@ -20,7 +22,7 @@ O projeto foi desenvolvido com o objetivo de construir uma fonte de tensão ajus
 | 1     | [Resistor 2k](https://www.baudaeletronica.com.br/produto/resistor-2k0-5-12w.html)     | 2000 Ω 1/2W    | R$ 0,15   |
 | 1     | [Resistor 2k](https://www.baudaeletronica.com.br/produto/resistor-2k-5-18w.html)     | 2000 Ω 1/8W    | R$ 0,05   |
 | 1     | [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html)       | Diodo Zener BZX55C 13V/0,5W     |  R$ 0,08   |
-| 1     | [Fusível](https://www.baudaeletronica.com.br/produto/pico-fusivel-1a-8mm.html)     |  1 A     | R$ 1,45    |
+| 1     | [Fusível de Pico](https://www.baudaeletronica.com.br/produto/pico-fusivel-1a-8mm.html)     |  1 A     | R$ 1,45    |
 | 1     | [LED Vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html)       | Tensão de 2V e Corrente 20mA      | R$ 0,24    |
 | 1     | [Transistor](https://www.baudaeletronica.com.br/transistor-npn-bc337.html)       |  Transistor NPN - BC337      | R$ 0,36   |
 
