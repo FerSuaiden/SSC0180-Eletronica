@@ -3,11 +3,15 @@
 O projeto foi desenvolvido com o objetivo de construir uma fonte de tensão ajustável que funciona no regime de corrente contínua (DC) de 100mA.
 ### Esquema de Funcionamento
 
+
 ### Teoria
 
+
 ### Circuito FALSTAD
+![Circuito FALSTAD](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/73fc6291-b543-4194-97e4-fcc12b2dfe07)
 
 ### Circuito PCB no EAGLE
+
 
 ### Componentes Eletrônicos
 | Quantidade     | Componentes | Especificações | Valor |
