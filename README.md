@@ -1,15 +1,15 @@
-### SSC0180-Eletronica
+# SSC0180-Eletronica
 ## Projeto: Fonte de Tensão Regulável 3v-12v (100mA)
 O projeto foi desenvolvido com o objetivo de construir uma fonte de tensão ajustável que funciona no regime de corrente contínua (DC) de 100mA.
-# Esquema de Funcionamento
+### Esquema de Funcionamento
 
-# Teoria
+### Teoria
 
-# Circuito FALSTAD
+### Circuito FALSTAD
 
-# Circuito PCB no EAGLE
+### Circuito PCB no EAGLE
 
-# Componentes Eletrônicos
+### Componentes Eletrônicos
 | Quantidade     | Componentes | Especificações | Valor |
 | ---      | ---       | ---      | ---     |
 | 1 | [Transformador Bivolt](https://produto.mercadolivre.com.br/MLB-2601528464-transformador-trafo-1212v-500ma-bivolt-_JM)  | 12V/24V     |  R$ 28,99   |
@@ -26,9 +26,9 @@ O projeto foi desenvolvido com o objetivo de construir uma fonte de tensão ajus
 
 Valor Total: R$ 39,03
 
-# Referências Bibliográficas
+### Referências Bibliográficas
 
-# Resposáveis
+### Resposáveis
 Felipe da Costa Coqueiro
 Fernando
 Guilherme
