@@ -45,5 +45,5 @@ Valor Total: R$ 39,03
 
 ### Resposáveis
 - Felipe da Costa Coqueiro
-- Fernando
-- Guilherme
+- Fernando Alee Suaiden
+- Guilherme Torquato
