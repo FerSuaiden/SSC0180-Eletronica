@@ -29,8 +29,9 @@ O circuito PCB diminui o preço de um protótipo pode ser dimensionado de acordo
 
 Essas conexões permitem o encaixe e a solda dos terminais diretamente na placa, o que garante o contato entre os caminhos elétricos e cada terminal.
 
+![Captura de Tela (2)](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/5c528526-ab55-4e2a-8ff7-71635c8ce76d)
 
-
+[Drive PCB](https://drive.google.com/drive/folders/139w-AAhYZd-ccR1MyaJhjyOBQUGBD-Xi)
 
 ### Componentes Eletrônicos
 | Quantidade     | Componentes | Especificações | Valor |
