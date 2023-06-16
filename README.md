@@ -23,9 +23,14 @@ O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulá
 
 ### Circuito PCB no EAGLE
 
-O circuito PCB diminui o preço de um protótipo pode ser dimensionado de acordo com a necessidade, permitindo a maior compactação dos componentes eletrônicos. Possui canais elétricos isolados e conexões com encaixes específicos para cada elemento do circuito. Essas conexões permitem o encaixe e a solda dos terminais diretamente na placa, o que garante o contato entre os caminhos elétricos e cada terminal.
+O circuito PCB diminui o preço de um protótipo pode ser dimensionado de acordo com a necessidade, permitindo a maior compactação dos componentes eletrônicos. Possui canais elétricos isolados e conexões com encaixes específicos para cada elemento do circuito. 
 
-![Captura de Tela (1)](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/58c4473c-d4e0-4bea-aa97-35a4258a9692)
+![Captura de Tela (1)](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/4b198063-e266-4c4b-8409-ad796c55a793)
+
+Essas conexões permitem o encaixe e a solda dos terminais diretamente na placa, o que garante o contato entre os caminhos elétricos e cada terminal.
+
+
+
 
 ### Componentes Eletrônicos
 | Quantidade     | Componentes | Especificações | Valor |
