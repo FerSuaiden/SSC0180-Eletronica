@@ -50,9 +50,24 @@ Essas conexões permitem o encaixe e a solda dos terminais diretamente na placa,
 
 Valor Total: R$ 39,03
 
+- Transformador: Transforma a tensão alternada da tomada, que possui RMS (root mean square) de 179,6 V, para um valor menor. O seu funcionamento se dá a partir de duas bobinas e a interação entre os seus campos magnéticos, controlando a corrente e a tensão para um valor desejado.
+
+- Diodos: São usados para retificar a corrente alternada. São componentes usados na ponte de diodo que retifica a dupla onda e otimiza a voltagem da tomada através da inversão de um dos semiciclos da função da tensão alternada.
+
+- Capacitor: Armazena a carga durante os picos da corrente alternada, liberando corrente quando a tensão do capacitor é maior que a tensão da fonte.
+
+- Diodo Zener: Conduz corrente elétrica apenas quando a tensão estiver acima da tensão máxima, dessa forma, é possível regular a tensão máxima no circuito.
+
+- Resistores: Limitam a corrente que passam pelos componentes e dissipam calor do circuito.
+
+- Potenciômetro: É um resistor com resistência variável. É utilizado para ajustar a tensão que vai para o transistor.
+
+- Transistor: Utilizado para limitar a passagem de corrente diretamente para a saída.
+
 ### Referências Bibliográficas
 
 ### Resposáveis
 - Felipe da Costa Coqueiro
 - Fernando Alee Suaiden
 - Guilherme Torquato
+- Adhemar
