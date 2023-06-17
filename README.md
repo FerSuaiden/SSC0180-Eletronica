@@ -14,6 +14,7 @@ Segue abaixo o esquema do princípio de funcionamento da fonte de tensão:
 ### Teoria
 
 
+
 ### Circuito FALSTAD
 O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulável. Por meio desse mecanismo, foi possível prever o comportamento de cada um dos componentes eletrônicos no circuito e evitar erros de forma geral.
 
@@ -49,6 +50,8 @@ Essas conexões permitem o encaixe e a solda dos terminais diretamente na placa,
 | 1     | [Transistor](https://www.baudaeletronica.com.br/transistor-npn-bc337.html)       |  Transistor NPN - BC337      | R$ 0,36   |
 
 Valor Total: R$ 39,03
+
+### Função dos Componentes
 
 - Transformador: Transforma a tensão alternada da tomada, que possui RMS (root mean square) de 179,6 V, para um valor menor. O seu funcionamento se dá a partir de duas bobinas e a interação entre os seus campos magnéticos, controlando a corrente e a tensão para um valor desejado.
 
