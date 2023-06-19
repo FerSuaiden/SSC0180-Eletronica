@@ -1,4 +1,4 @@
-# SSC0180-Eletronica
+# SSC0180-Eletrônica
 ## Projeto: Fonte de Tensão Regulável 3v-12v (100mA)
 O projeto foi desenvolvido com o objetivo de construir uma fonte de tensão ajustável que funciona no regime de corrente contínua (DC) de 100mA.
 ### Esquema de Funcionamento
@@ -31,11 +31,11 @@ $$ V(t) = Vo \times sen(ω \cdot t) $$
 
 Usando a forma infinitesimal para calcular a área embaixo da curva do gráfico:
 
-$$ V(t) = \frac{1}{T} \times \int_{0}^{t} 𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \,dt $$
+$$ V(t) = \frac{1}{T} \times \int_{0}^{t} 𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \ \cdot dt $$
 
 Sabendo que o período da senóide é 𝑇 = 2π/ω, dizemos que:
 
-$$ V(t) = \frac{ω}{2π} \times \int_{0}^{t} 𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \,dt $$
+$$ V(t) = \frac{ω}{2π} \times \int_{0}^{t} 𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \ \cdot dt $$
                                         
 - **Tensão Eficaz:** É a tensão alternada equivalente a uma tensão contínua para que a potência
 produzida seja a mesma. Logo, por definição, temos:
@@ -46,9 +46,9 @@ $$Pot_{AC} = \frac{V(t)²}{R} \ (ii) $$
 
 Igualando (i) e (ii):
 
-$$ \rightarrow \frac{V²}{R} = \frac{V(t)²}{R} \rightarrow V² = \frac{ω}{2π} \times \int_{0}^{t} [𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \,dt ]² $$
+$$ \rightarrow \frac{V²}{R} = \frac{V(t)²}{R} \rightarrow V² = \frac{ω}{2π} \times \int_{0}^{t} [𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \ \cdot dt ]² $$
 
-$$ \rightarrow V_{rms} = V_{máx} \times \sqrt(\frac{ω}{2π} \times \int_{0}^{t} [𝑠𝑒𝑛(ω \cdot 𝑡) \,dt ]²) \ (iii) $$
+$$ \rightarrow V_{rms} = V_{máx} \times \sqrt(\frac{ω}{2π} \times \int_{0}^{t} [𝑠𝑒𝑛(ω \cdot 𝑡) \ \cdot dt ]²) \ (iii) $$
 
 Resolvendo a integral, tem-se:
 
@@ -60,13 +60,52 @@ Substituindo (iv) em (iii):
 
 $$ V_{rms} = V_{máx} \times \sqrt(\frac{π}{ω} \times \frac{ω}{2π}) \rightarrow V_{rms} = V_{máx} \times \sqrt\frac{1}{2} $$
 
-Normalmente, as tomadas operam com Vrms = 127 V ou Vrms = 220 V. No caso do projeto, usamos 127V para calcular a tensão máxima:
+Normalmente, as tomadas operam com Vrms = 127 V. Então, para um estudo efetivo da tensão no projeto, podemos calcular a tensão máxima da seguinte maneira:
 
 $$ V_{máx} = 127 \times \sqrt\frac{1}{2} \approx  179,6 V $$
 
-**Razão do Transformador:** Para trabalhar com uma saída de tensão de Vs = 24 V, usamos a equação do transformador:
+- **Razão do Transformador:** Para trabalhar com uma saída de tensão de Vs = 24 V, usamos a equação do transformador:
 
-$$ k = \frac{N_{1}}{N_{2}} = \frac{V_{máx}}{V_{s}} $$
+$$ k = \frac{N_{máx}}{N_{s}} = \frac{V_{máx}}{V_{s}} \rightarrow k = \frac{179,6}{24} \approx 7,48 $$
+
+- **Queda de Tensão na Ponte Retificadora:** No circuito haverá sempre dois diodos que estarão sempre em funcionamento (exceto nos momentos de gaps que são abastecidos pelo capacitor). Tais diodos consomem aproximadamente 0,7 V. Logo, haverá uma queda de tensão de 1,4 V na ponte. Então a voltagem que sai para o circuito é:
+
+$$ Vs' = Vs - 1,4 V \rightarrow Vs' = 24 V - 1,4 V \rightarrow Vs' = 22,6 V $$
+
+**Cálculo da Capacitância:** 
+
+(i) O filtro capacitivo tem a finalidade de reduzir a variação de tensão e de corrente no caso das altas frequências, eliminando a tensão alternada pulsativa e transformando-a em uma tensão (contínua) que varia menos. Usando a Lei de Coulomb, deduzimos facilmente a expressão que fornece o valor da capacitância:
+
+$$ Q = V \times C = I \times Δt $$
+
+Mas sabemos que: 
+
+$$ Δt = \frac{1}{f} $$
+
+Então:
+
+$$ C = \frac{i_{total}}{f \times V_{ripple}} $$
+
+(ii) Assumindo que queremos um ripple de no máximo 10%: 
+
+$$ V_{ripple} = 0,1 \times Vs’ → Vripple = 0,1 \times 22,6 → V_{ripple} = 2,26 V $$
+
+Dessa forma, podemos calcular as tensões máximas e mínimas de saída no ciclo. Sejam:
+- Vmáxs: Tensão máxima de saída
+- Vripple: Tensão de ripple
+- Vmíns: Tensão mínima de saída
+
+Então, usando a fórmula reduzida da tensão de carga no capacitor:
+
+$$ V_{máxs} = Vs’ (1 − \frac{ripple}{2}) → V_{máxs} = 22,6.(1 − \frac{10}{2 \times 100 }) → V_{máxs} = 21,47 V $$
+
+$$ V_{míns} = V_{máxs} - V_{ripple} → V_{míns} = 21,47 - 2,26 → V_{míns} = 19,21 V $$
+
+Nesse sentido, podemos calcular a corrente total no circuito com base nessas informações:
+
+$$ i_{LED} = \frac{V_{máxs}-V_{LED}}{R_{LED}} = \frac{21,47 - 2}{2000} \approx 9,735 mA $$
+$$ i_{ZENNER} = \frac{V_{máxs}-V_{ZENNER}}{R_{ZENNER}} = \frac{21,47 - 13}{2000} \approx 9,735 mA $$
+
 
 ### Circuito FALSTAD
 O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulável. Por meio desse mecanismo, foi possível prever o comportamento de cada um dos componentes eletrônicos no circuito e evitar erros de forma geral.
