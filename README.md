@@ -13,7 +13,7 @@ Segue abaixo o esquema do princípio de funcionamento da fonte de tensão:
 
 ### Teoria
 
-- Tensão Alternada: É um tipo de tensão elétrica que varia em amplitude e polaridade ao longo do tempo. A medida é em volts (V) e sua frequência é medida em Hertz (Hz). No Brasil, a frequência padrão da tensão alternada é de 60 Hz. Nesse sentido, podemos dizer que o formato de onda da tensão alternada é descrito pela função *f(t) = A.sen(ω.t+θ)*, onde:
+- **Tensão Alternada:** É um tipo de tensão elétrica que varia em amplitude e polaridade ao longo do tempo. A medida é em volts (V) e sua frequência é medida em Hertz (Hz). No Brasil, a frequência padrão da tensão alternada é de 60 Hz. Nesse sentido, podemos dizer que o formato de onda da tensão alternada é descrito pela função *f(t) = A.sen(ω.t+θ)*, onde:
 
 A: amplitude
 
@@ -37,7 +37,7 @@ Sabendo que o período da senóide é 𝑇 = 2π/ω, dizemos que:
 
 $$ V(t) = \frac{ω}{2π} \times \int_{0}^{t} 𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \,dt $$
                                         
-- Tensão Eficaz: É a tensão alternada equivalente a uma tensão contínua para que a potência
+- **Tensão Eficaz:** É a tensão alternada equivalente a uma tensão contínua para que a potência
 produzida seja a mesma. Logo, por definição, temos:
 
 $$ Pot_{DC} = \frac{V²}{R} \ (i) $$
@@ -64,6 +64,9 @@ Normalmente, as tomadas operam com Vrms = 127 V ou Vrms = 220 V. No caso do proj
 
 $$ V_{máx} = 127 \times \sqrt\frac{1}{2} \approx  179,6 V $$
 
+**Razão do Transformador:** Para trabalhar com uma saída de tensão de Vs = 24 V, usamos a equação do transformador:
+
+$$ k = \frac{N_{1}}{N_{2}} = \frac{V_{máx}}{V_{s}} $$
 
 ### Circuito FALSTAD
 O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulável. Por meio desse mecanismo, foi possível prever o comportamento de cada um dos componentes eletrônicos no circuito e evitar erros de forma geral.
