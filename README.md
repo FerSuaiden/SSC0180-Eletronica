@@ -14,10 +14,15 @@ Segue abaixo o esquema do princípio de funcionamento da fonte de tensão:
 ### Teoria
 
 Tensão Alternada: É um tipo de tensão elétrica que varia em amplitude e polaridade ao longo do tempo. A medida é em volts (V) e sua frequência é medida em Hertz (Hz). No Brasil, a frequência padrão da tensão alternada é de 60 Hz. Nesse sentido, podemos dizer que o formato de onda da tensão alternada é descrito pela função f(t) = A.sen(ω.t+θ), onde:
+
 A: amplitude
+
 ω: frequência angular
+
 θ: ângulo de defasagem da onda
+
 t: tempo
+
 
 
 ### Circuito FALSTAD
