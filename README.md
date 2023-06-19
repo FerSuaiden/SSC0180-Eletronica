@@ -13,7 +13,7 @@ Segue abaixo o esquema do princípio de funcionamento da fonte de tensão:
 
 ### Teoria
 
-Tensão Alternada: É um tipo de tensão elétrica que varia em amplitude e polaridade ao longo do tempo. A medida é em volts (V) e sua frequência é medida em Hertz (Hz). No Brasil, a frequência padrão da tensão alternada é de 60 Hz. Nesse sentido, podemos dizer que o formato de onda da tensão alternada é descrito pela função f(t) = A.sen(ω.t+θ), onde:
+- Tensão Alternada: É um tipo de tensão elétrica que varia em amplitude e polaridade ao longo do tempo. A medida é em volts (V) e sua frequência é medida em Hertz (Hz). No Brasil, a frequência padrão da tensão alternada é de 60 Hz. Nesse sentido, podemos dizer que o formato de onda da tensão alternada é descrito pela função *f(t) = A.sen(ω.t+θ)*, onde:
 
 A: amplitude
 
@@ -23,6 +23,46 @@ A: amplitude
 
 t: tempo
 
+![senoideeew](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/e19a8d9d-73a2-4312-b2a9-4eb518f386b8)
+
+Desse modo, podemos calcular o valor médio da função periódica, tomando θ = 0°: 
+
+$$ V(t) = Vo \times sen(ω \cdot t) $$
+
+Usando a forma infinitesimal para calcular a área embaixo da curva do gráfico:
+
+$$ V(t) = \frac{1}{T} \times \int_{0}^{t} 𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \,dt $$
+
+Sabendo que o período da senóide é 𝑇 = 2π/ω, dizemos que:
+
+$$ V(t) = \frac{ω}{2π} \times \int_{0}^{t} 𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \,dt $$
+                                        
+- Tensão Eficaz: É a tensão alternada equivalente a uma tensão contínua para que a potência
+produzida seja a mesma. Logo, por definição, temos:
+
+$$ Pot_{DC} = \frac{V²}{R} \ (i) $$
+
+$$Pot_{AC} = \frac{V(t)²}{R} \ (ii) $$
+
+Igualando (i) e (ii):
+
+$$ \rightarrow \frac{V²}{R} = \frac{V(t)²}{R} \rightarrow V² = \frac{ω}{2π} \times \int_{0}^{t} [𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \,dt ]² $$
+
+$$ \rightarrow V_{rms} = V_{máx} \times \sqrt(\frac{ω}{2π} \times \int_{0}^{t} [𝑠𝑒𝑛(ω \cdot 𝑡) \,dt ]²) \ (iii) $$
+
+Resolvendo a integral, tem-se:
+
+$$ \rightarrow \int_{0}^{t} [𝑠𝑒𝑛(ω \cdot 𝑡) \,dt ]² = (\frac{t}{2} - \frac{sen(2ω \cdot 𝑡)}{4}) | _ {0}^{T} $$
+
+$$ \rightarrow (\frac{T}{2} - \frac{sen(2ω \cdot T)}{4}) = (\frac{π}{ω} - \frac{sen(4 \cdot π)}{4}) = \frac{π}{ω} \ (iv) $$
+
+Substituindo (iv) em (iii): 
+
+$$ V_{rms} = V_{máx} \times \sqrt(\frac{π}{ω} \times \frac{ω}{2π}) \rightarrow V_{rms} = V_{máx} \times \sqrt\frac{1}{2} $$
+
+Normalmente, as tomadas operam com Vrms = 127 V ou Vrms = 220 V. No caso do projeto, usamos 127V para calcular a tensão máxima:
+
+$$ V_{máx} = 127 \times \sqrt\frac{1}{2} \approx  179,6 V $$
 
 
 ### Circuito FALSTAD
