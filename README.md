@@ -169,6 +169,7 @@ Essas conexões permitem o encaixe e a solda dos terminais diretamente na placa,
 | 1     | [Resistor 1k](https://www.baudaeletronica.com.br/resistor-1k-5-1-4w.html)       | 1000 Ω     | R$ 0,05    |
 | 1     | [Resistor 2k](https://www.baudaeletronica.com.br/produto/resistor-2k0-5-12w.html)     | 2000 Ω 1/2W    | R$ 0,15   |
 | 1     | [Resistor 2k](https://www.baudaeletronica.com.br/produto/resistor-2k-5-18w.html)     | 2000 Ω 1/8W    | R$ 0,05   |
+| 1     | [Resistor 120 Ω](https://produto.mercadolivre.com.br/MLB-3037235923-10x-resistor-1w-5-120r-120-ohms-novo-_JM#position=4&search_layout=grid&type=item&tracking_id=ad0f01ce-eae4-4e9f-9a2d-22425ca45e45)     | 120 Ω 1 W    | R$ 1,59   |
 | 1     | [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html)       | Diodo Zener BZX55C 13V/0,5W     |  R$ 0,08   |
 | 1     | [Fusível de Pico](https://www.baudaeletronica.com.br/produto/pico-fusivel-1a-8mm.html)     |  1 A     | R$ 1,45    |
 | 1     | [LED Vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html)       | 2V/20mA      | R$ 0,24    |
