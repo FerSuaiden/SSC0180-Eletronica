@@ -145,7 +145,7 @@ O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulá
 
 ![Circuito FALSTAD](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/148d2203-fdfb-4428-b72e-a01672b71af1)
 
-[Link do Circuito](https://tinyurl.com/24f6a5x2)
+[Link do Circuito](https://tinyurl.com/2atjk8rp)
 
 ### Circuito PCB no EAGLE
 
