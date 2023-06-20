@@ -46,7 +46,7 @@ $$Pot_{AC} = \frac{V(t)²}{R} \ (ii) $$
 
 Igualando (i) e (ii):
 
-$$ \rightarrow \frac{V²}{R} = \frac{V(t)²}{R} \rightarrow V² = \frac{ω}{2π} \times \int_{0}^{t} [𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \ \cdot dt ]² $$
+$$ \frac{V²}{R} = \frac{V(t)²}{R} \rightarrow V² = \frac{ω}{2π} \times \int_{0}^{t} [𝑉𝑚á𝑥 \times 𝑠𝑒𝑛(ω \cdot 𝑡) \ \cdot dt ]² $$
 
 $$ \rightarrow V_{rms} = V_{máx} \times \sqrt(\frac{ω}{2π} \times \int_{0}^{t} [𝑠𝑒𝑛(ω \cdot 𝑡) \ \cdot dt ]²) \ (iii) $$
 
@@ -96,7 +96,7 @@ Dessa forma, podemos calcular as tensões máximas e mínimas de saída no ciclo
 - Vmíns: Tensão mínima de saída
 
 Então, usando a fórmula reduzida da tensão de carga no capacitor:
-
+https://github.com/pulls
 $$ V_{máxs} = Vs’ (1 − \frac{ripple}{2}) → V_{máxs} = 22,6.(1 − \frac{10}{2 \times 100 }) → V_{máxs} = 21,47 V $$
 
 $$ V_{míns} = V_{máxs} - V_{ripple} → V_{míns} = 21,47 - 2,26 → V_{míns} = 19,21 V $$
@@ -105,7 +105,16 @@ Nesse sentido, podemos calcular a corrente total no circuito com base nessas inf
 
 $$ i_{LED} = \frac{V_{máxs}-V_{LED}}{R_{LED}} = \frac{21,47 - 2}{2000} \approx 9,735 mA $$
 $$ i_{ZENNER} = \frac{V_{máxs}-V_{ZENNER}}{R_{ZENNER}} = \frac{21,47 - 13}{2000} \approx 9,735 mA $$
+$$ i_{POTENCIÔMETRO} = \frac{V_{máxs}}{R_{POTENCIÔMETRO}} $$
+$$ i_{TRANSISTOR} = \frac{V_{ZENNER}}{R_{ZENNER}} $$
 
+Logo, 
+
+$$ i_{TOTAL} = 9,735 + 8,47 + 2,68 + 102,5 = 123,385 mA $$
+
+Por fim, no cálculo da capacitância usamos f = 120 Hz pois a saída da frequência é o dobro da entrada para uma retificação em onda completa na ponte:
+
+$$ 
 
 ### Circuito FALSTAD
 O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulável. Por meio desse mecanismo, foi possível prever o comportamento de cada um dos componentes eletrônicos no circuito e evitar erros de forma geral.
