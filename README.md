@@ -116,7 +116,7 @@ $$ i_{TOTAL} = 9,735 + 8,47 + 2,68 + 102,5 = 123,385 mA $$
 
 Por fim, no cálculo da capacitância usamos f = 120 Hz pois a saída da frequência é o dobro da entrada para uma retificação em onda completa na ponte:
 
-$$ C = \frac{i_{TOTAL}}{f \cdot V_{ripple}} = \frac{123,385}}{120 \cdot 2,26}} $$
+$$ C = \frac{i_{TOTAL}}{f \cdot V_{ripple}} = \frac{123,385 \times 10^{-3}}{120 \times 2,26} \approx 454,9 µF $$
 
 O valor comercial mais próximo do valor teórico é 470µF.
 
