@@ -130,11 +130,11 @@ $$ V_{ZENNER} = V_{spmáx} + V_{R2} → 13 = 9,3 + i_{R2} \cdot 2000 → i_{R2} 
 
 (iii) Corrente na Base do Transistor:
 
-$$ i_{BASE} = \frac{i_{coletor-mín}}{G_{base-emissor}} = \frac{3}{120} \times \frac{1}{100} $$
+$$ i_{BASE} = \frac{i_{coletor-mín}}{G_{base-emissor}} = \frac{3}{120} \times \frac{1}{100} = 0,25 mA $$
 
 Portanto,
 
-$$ R_{pmáx} = \frac{V_{spmáx}}{i_{BASE}+i_{R2}} $$
+$$ R_{pmáx} = \frac{V_{spmáx}}{i_{BASE}+i_{R2}} = \frac{9,3}{(0,25 + 1,85) \cdot 10^{-3}} = 4428,6 Ω $$
 
 No entanto, o valor comercial mais perto do valor teórico é: 5000 Ω
 
@@ -196,4 +196,4 @@ Valor Total: R$ 39,03
 - Felipe da Costa Coqueiro
 - Fernando Alee Suaiden
 - Guilherme Torquato
-- Adhemar
+- Adhemar Molon Neto
