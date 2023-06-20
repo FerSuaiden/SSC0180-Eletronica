@@ -52,7 +52,7 @@ $$ \rightarrow V_{rms} = V_{máx} \times \sqrt(\frac{ω}{2π} \times \int_{0}^{t
 
 Resolvendo a integral, tem-se:
 
-$$ \rightarrow \int_{0}^{t} [𝑠𝑒𝑛(ω \cdot 𝑡) \,dt ]² = (\frac{t}{2} - \frac{sen(2ω \cdot 𝑡)}{4}) | _ {0}^{T} $$
+$$ \int_{0}^{t} [𝑠𝑒𝑛(ω \cdot 𝑡) \,dt ]² = (\frac{t}{2} - \frac{sen(2ω \cdot 𝑡)}{4}) | _ {0}^{T} $$
 
 $$ \rightarrow (\frac{T}{2} - \frac{sen(2ω \cdot T)}{4}) = (\frac{π}{ω} - \frac{sen(4 \cdot π)}{4}) = \frac{π}{ω} \ (iv) $$
 
@@ -96,7 +96,7 @@ Dessa forma, podemos calcular as tensões máximas e mínimas de saída no ciclo
 - Vmíns: Tensão mínima de saída
 
 Então, usando a fórmula reduzida da tensão de carga no capacitor:
-https://github.com/pulls
+
 $$ V_{máxs} = Vs’ (1 − \frac{ripple}{2}) → V_{máxs} = 22,6.(1 − \frac{10}{2 \times 100 }) → V_{máxs} = 21,47 V $$
 
 $$ V_{míns} = V_{máxs} - V_{ripple} → V_{míns} = 21,47 - 2,26 → V_{míns} = 19,21 V $$
@@ -114,7 +114,29 @@ $$ i_{TOTAL} = 9,735 + 8,47 + 2,68 + 102,5 = 123,385 mA $$
 
 Por fim, no cálculo da capacitância usamos f = 120 Hz pois a saída da frequência é o dobro da entrada para uma retificação em onda completa na ponte:
 
-$$ 
+$$ C = \frac{i_{TOTAL}}{f \cdot V_{ripple}} $$
+
+O valor comercial mais próximo do valor teórico é 470µF.
+
+- **Cálculo do Potenciômetro:** O potenciômetro fará a regulação da voltagem na saída. Sua resistência está relacionada à voltagem mínima de 3V. O valor do ganho de corrente entre o emissor e a base (Veb = 100) e a tensão de drop do transistor (Vdt = 0,7 V) foram retirados do datasheet.
+
+(i) Tensão Máxima de Saída do Potenciômetro:
+
+$$ V_{spmín} = 13 - V_{spmáx} - 0,7 → 3 = 13 - V_{spmáx} - 0,7 → V_{spmáx} = 9,3 V $$
+
+(ii) Corrente no Resistor em Série com o Potenciômetro:
+
+$$ V_{ZENNER} = V_{spmáx} + V_{R2} → 13 = 9,3 + i_{R2} \cdot 2000 → i_{R2} = 1,85 mA $$
+
+(iii) Corrente na Base do Transistor:
+
+$$ i_{BASE} = \frac{i_{coletor-mín}}{G_{base-emissor}} = \frac{3}{120} \times \frac{1}{100} $$
+
+Portanto,
+
+$$ R_{pmáx} = \frac{V_{spmáx}}{i_{BASE}+i_{R2}} $$
+
+No entanto, o valor comercial mais perto do valor teórico é: 5000 Ω
 
 ### Circuito FALSTAD
 O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulável. Por meio desse mecanismo, foi possível prever o comportamento de cada um dos componentes eletrônicos no circuito e evitar erros de forma geral.
