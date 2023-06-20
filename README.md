@@ -95,6 +95,8 @@ Dessa forma, podemos calcular as tensões máximas e mínimas de saída no ciclo
 - Vripple: Tensão de ripple
 - Vmíns: Tensão mínima de saída
 
+![ripple](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/129008295/cfa6356c-1da2-4800-a43d-4e5527479e99)
+
 Então, usando a fórmula reduzida da tensão de carga no capacitor:
 
 $$ V_{máxs} = Vs’ (1 − \frac{ripple}{2}) → V_{máxs} = 22,6.(1 − \frac{10}{2 \times 100 }) → V_{máxs} = 21,47 V $$
