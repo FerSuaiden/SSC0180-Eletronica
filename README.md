@@ -197,11 +197,7 @@ OBS.: A ponte retificadora pode ser mais barata (porém optamos em investir uma 
 
 ### Vídeos do projeto funcionando
 
-
-
 https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/faed93b2-db19-4c16-be6c-2e7470608e04
-
-
 
 ### Resposáveis
 - Felipe da Costa Coqueiro
