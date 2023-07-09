@@ -143,7 +143,7 @@ No entanto, o valor comercial mais perto do valor teórico é: 5000 Ω
 ### Circuito FALSTAD
 O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulável. Por meio desse mecanismo, foi possível prever o comportamento de cada um dos componentes eletrônicos no circuito e evitar erros de forma geral.
 
-![Circuito FALSTAD](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/148d2203-fdfb-4428-b72e-a01672b71af1)
+![Circuito FALSTAD](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/e62aca3c-a14a-445f-b274-896ed6f66427)
 
 [Link do Circuito](https://tinyurl.com/234enodp)
 
