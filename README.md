@@ -121,7 +121,7 @@ Por fim, no cálculo da capacitância usamos f = 120 Hz pois a saída da frequê
 
 $$ C = \frac{i_{TOTAL}}{f \cdot V_{ripple}} = \frac{112,18 \times 10^{-3}}{120 \times 2,44} \approx 383,12 µF $$
 
-O valor comercial mais próximo do valor teórico é 470µF 50V, valores com uma margem de 22,6% acima do teórico.
+O valor comercial mais próximo do valor teórico é 470µF 50V, optamos por uma margem de 22,6% acima do teórico.
 
 - **Cálculo do Potenciômetro:** O potenciômetro fará a regulação da voltagem na saída. Sua resistência está relacionada à voltagem mínima de 3V. O valor do ganho de corrente entre o emissor e a base (Veb = 100) e a tensão de drop do transistor (Vdt = 0,7 V) foram retirados do datasheet.
 
