@@ -183,7 +183,7 @@ OBS.: A ponte retificadora pode ser mais barata (porém optamos em investir uma 
 
 - Transformador: Transforma a tensão alternada da tomada, que possui RMS (root mean square) de 179,6 V, para um valor menor. O seu funcionamento se dá a partir de duas bobinas e a interação entre os seus campos magnéticos, controlando a corrente e a tensão para um valor desejado.
 
-- Diodos: São usados para retificar a corrente alternada. São componentes usados na ponte de diodo que retifica a dupla onda e otimiza a voltagem da tomada através da inversão de um dos semiciclos da função da tensão alternada.
+- Ponte Retificadora: Utilizada para retificar a corrente alternada. Retifica a dupla onda e otimiza a voltagem da tomada através da inversão de um dos semiciclos da função da tensão alternada. [DATASHEET](https://pdf.datasheetcatalog.net/datasheets/37/250993_DS.pdf)
 
 - Capacitor: Armazena a carga durante os picos da corrente alternada, liberando corrente quando a tensão do capacitor é maior que a tensão da fonte.
 
