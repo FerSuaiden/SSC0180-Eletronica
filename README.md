@@ -64,13 +64,13 @@ Normalmente, as tomadas operam com Vrms = 127 V. Então, para um estudo efetivo 
 
 $$ V_{máx} = 127 \times \sqrt\frac{1}{2} \approx  179,6 V $$
 
-- **Razão do Transformador:** Para trabalhar com uma saída de tensão de Vs = 24 V, usamos a equação do transformador:
+- **Razão do Transformador:** Para trabalhar com uma saída de tensão de Vs = 25,8 V (medido na prática), usamos a equação do transformador:
 
-$$ k = \frac{N_{máx}}{N_{s}} = \frac{V_{máx}}{V_{s}} \rightarrow k = \frac{179,6}{24} \approx 7,48 $$
+$$ k = \frac{N_{máx}}{N_{s}} = \frac{V_{máx}}{V_{s}} \rightarrow k = \frac{179,6}{25,8} \approx 6,96 $$
 
 - **Queda de Tensão na Ponte Retificadora:** No circuito haverá sempre dois diodos que estarão sempre em funcionamento (exceto nos momentos de gaps que são abastecidos pelo capacitor). Tais diodos consomem aproximadamente 0,7 V. Logo, haverá uma queda de tensão de 1,4 V na ponte. Então a voltagem que sai para o circuito é:
 
-$$ Vs' = Vs - 1,4 V \rightarrow Vs' = 24 V - 1,4 V \rightarrow Vs' = 22,6 V $$
+$$ Vs' = Vs - 1,4 V \rightarrow Vs' = 25,8 V - 1,4 V \rightarrow Vs' = 24,4 V $$
 
 **Cálculo da Capacitância:** 
 
@@ -88,7 +88,7 @@ $$ C = \frac{i_{total}}{f \times V_{ripple}} $$
 
 (ii) Assumindo que queremos um ripple de no máximo 10%: 
 
-$$ V_{ripple} = 0,1 \times Vs’ → Vripple = 0,1 \times 22,6 → V_{ripple} = 2,26 V $$
+$$ V_{ripple} = 0,1 \times Vs’ → Vripple = 0,1 \times 24,4 → V_{ripple} = 2,44 V $$
 
 Dessa forma, podemos calcular as tensões máximas e mínimas de saída no ciclo. Sejam:
 - Vmáxs: Tensão máxima de saída
@@ -99,9 +99,9 @@ Dessa forma, podemos calcular as tensões máximas e mínimas de saída no ciclo
 
 Então, usando a fórmula reduzida da tensão de carga no capacitor:
 
-$$ V_{máxs} = Vs’ (1 − \frac{ripple}{2}) → V_{máxs} = 22,6.(1 − \frac{10}{2 \times 100 }) → V_{máxs} = 21,47 V $$
+$$ V_{máxs} = Vs’ (1 − \frac{ripple}{2}) → V_{máxs} = 24,4.(1 − \frac{10}{2 \times 100 }) → V_{máxs} = 23,18 V $$
 
-$$ V_{míns} = V_{máxs} - V_{ripple} → V_{míns} = 21,47 - 2,26 → V_{míns} = 19,21 V $$
+$$ V_{míns} = V_{máxs} - V_{ripple} → V_{míns} = 23,18 - 2,44 → V_{míns} = 20,74 V $$
 
 Nesse sentido, podemos calcular a corrente total no circuito com base nessas informações:
 
@@ -145,7 +145,7 @@ O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulá
 
 ![Circuito FALSTAD](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/e62aca3c-a14a-445f-b274-896ed6f66427)
 
-[Link do Circuito](https://tinyurl.com/234enodp)
+[Link do Circuito](https://tinyurl.com/25z65kpr)
 
 ### Circuito PCB no EAGLE
 
