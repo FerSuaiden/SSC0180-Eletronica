@@ -173,7 +173,7 @@ Essas conexões permitem o encaixe e a solda dos terminais diretamente na placa,
 | 1     | [Resistor 120 Ω](https://produto.mercadolivre.com.br/MLB-3037235923-10x-resistor-1w-5-120r-120-ohms-novo-_JM#position=4&search_layout=grid&type=item&tracking_id=ad0f01ce-eae4-4e9f-9a2d-22425ca45e45)     | 120 Ω 1 W    | R$ 1,59   |
 | 1     | [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html)       | Diodo Zener BZX55C 13V/0,5W     |  R$ 0,08   |
 | 1     | [LED Azul](https://www.baudaeletronica.com.br/produto/led-de-alto-brilho-azul)       | 2V/20mA      | R$ 0,27    |
-| 1     | [Transistor](https://www.baudaeletronica.com.br/produto/transistor-npn-bc368.html)       |  Transistor NPN - BC337      | R$ 0,55   |
+| 1     | [Transistor](https://www.baudaeletronica.com.br/produto/transistor-npn-bc368.html)       |  Transistor NPN - BC368      | R$ 0,55   |
 
 Valor Total: R$ 46,54
 
