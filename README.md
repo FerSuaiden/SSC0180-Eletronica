@@ -105,20 +105,23 @@ $$ V_{míns} = V_{máxs} - V_{ripple} → V_{míns} = 23,18 - 2,44 → V_{míns}
 
 Nesse sentido, podemos calcular a corrente total no circuito com base nessas informações:
 
-$$ i_{LED} = \frac{V_{máxs}-V_{LED}}{R_{LED}} = \frac{21,47 - 2}{2000} \approx 9,735 mA $$
-$$ i_{ZENNER} = \frac{V_{máxs}-V_{ZENNER}}{R_{ZENNER}} = \frac{21,47 - 13}{2000} \approx 9,735 mA $$
-$$ i_{POTENCIÔMETRO} = \frac{V_{máxs}}{R_{POTENCIÔMETRO}} $$
-$$ i_{TRANSISTOR} = \frac{V_{ZENNER}}{R_{ZENNER}} $$
+$$ i_{LED} = \frac{V_{máxs}-V_{LED}}{R_{LED}} = \frac{12,1}{4400} \approx 2,75 mA $$
+
+$$ i_{ZENNER} = \frac{V_{máxs}-V_{ZENNER}}{R_{ZENNER}} = \frac{22,18 - 12,9}{2200} \approx 4,22 mA $$
+
+$$ i_{POTENCIÔMETRO} = \frac{V_{máxs}}{R_{POTENCIÔMETRO}} = \frac{22,18}{5000} \approx 4,43 mA $$
+
+$$ i_{TRANSISTOR} = \frac{V_{máxs}}{R_{TRANSISTOR}} = \frac{23,18}{230} \approx 100,07 mA $$
 
 Logo, 
 
-$$ i_{TOTAL} = 9,735 + 8,47 + 2,68 + 102,5 = 123,385 mA $$
+$$ i_{TOTAL} = 2,75 + 4,22 + 4,43 + 100,07 = 112,18 mA $$
 
 Por fim, no cálculo da capacitância usamos f = 120 Hz pois a saída da frequência é o dobro da entrada para uma retificação em onda completa na ponte:
 
-$$ C = \frac{i_{TOTAL}}{f \cdot V_{ripple}} = \frac{123,385 \times 10^{-3}}{120 \times 2,26} \approx 454,9 µF $$
+$$ C = \frac{i_{TOTAL}}{f \cdot V_{ripple}} = \frac{112,18 \times 10^{-3}}{120 \times 2,44} \approx 383,12 µF $$
 
-O valor comercial mais próximo do valor teórico é 470µF.
+O valor comercial mais próximo do valor teórico é 470µF 50V, valores com uma margem de 22,6% acima do teórico.
 
 - **Cálculo do Potenciômetro:** O potenciômetro fará a regulação da voltagem na saída. Sua resistência está relacionada à voltagem mínima de 3V. O valor do ganho de corrente entre o emissor e a base (Veb = 100) e a tensão de drop do transistor (Vdt = 0,7 V) foram retirados do datasheet.
 
@@ -143,7 +146,7 @@ No entanto, o valor comercial mais perto do valor teórico é: 5000 Ω
 ### Circuito FALSTAD
 O circuito abaixo representa um esquema simplificado da Fonte de Tensão Regulável. Por meio desse mecanismo, foi possível prever o comportamento de cada um dos componentes eletrônicos no circuito e evitar erros de forma geral.
 
-![Circuito FALSTAD](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/e62aca3c-a14a-445f-b274-896ed6f66427)
+![Circuito FALSTAD](https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/f93ae96d-fc34-4747-9f10-8326818bc780)
 
 [Link do Circuito](https://tinyurl.com/25z65kpr)
 
