@@ -166,19 +166,18 @@ Essas conexões permitem o encaixe e a solda dos terminais diretamente na placa,
 | Quantidade     | Componentes | Especificações | Valor |
 | ---      | ---       | ---      | ---     |
 | 1 | [Transformador Bivolt](https://produto.mercadolivre.com.br/MLB-2601528464-transformador-trafo-1212v-500ma-bivolt-_JM)  | 12V/24V     |  R$ 28,99   |
-| 1 |[Ponte Retificadora](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html)| KBPC1010 | R$ 4,90 |
-| 1     | [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html)        | 470uF / 25V     | R$ 0,55  |
+| 1 |[Ponte Retificadora](https://www.baudaeletronica.com.br/produto/ponte-retificadora-35a-kbpc3510.html)| KBPC3510 | R$ 12,25 |
+| 1     | [Capacitor](https://www.baudaeletronica.com.br/produto/capacitor-eletrolitico-470uf-50v-105c.html)        | 470uF / 50V     | R$ 1,95  |
 | 1     | [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html)        | Resistência: 5K  | R$ 2,21    |
-| 1     | [Resistor 1k](https://www.baudaeletronica.com.br/resistor-1k-5-1-4w.html)       | 1000 Ω     | R$ 0,05    |
-| 1     | [Resistor 2k](https://www.baudaeletronica.com.br/produto/resistor-2k0-5-12w.html)     | 2000 Ω 1/2W    | R$ 0,15   |
-| 1     | [Resistor 2k](https://www.baudaeletronica.com.br/produto/resistor-2k-5-18w.html)     | 2000 Ω 1/8W    | R$ 0,05   |
+| 4     | [Resistor 2k2](https://www.casadoresistor.com.br/resistor-filme-carbono-carvao-cr25-1-4w-5-2k2-p272)     | 2200 Ω 1/4W    | R$ 0,06   |
 | 1     | [Resistor 120 Ω](https://produto.mercadolivre.com.br/MLB-3037235923-10x-resistor-1w-5-120r-120-ohms-novo-_JM#position=4&search_layout=grid&type=item&tracking_id=ad0f01ce-eae4-4e9f-9a2d-22425ca45e45)     | 120 Ω 1 W    | R$ 1,59   |
 | 1     | [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html)       | Diodo Zener BZX55C 13V/0,5W     |  R$ 0,08   |
-| 1     | [Fusível de Pico](https://www.baudaeletronica.com.br/produto/pico-fusivel-1a-8mm.html)     |  1 A     | R$ 1,45    |
-| 1     | [LED Vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html)       | 2V/20mA      | R$ 0,24    |
-| 1     | [Transistor](https://www.baudaeletronica.com.br/transistor-npn-bc337.html)       |  Transistor NPN - BC337      | R$ 0,36   |
+| 1     | [LED Azul](https://www.baudaeletronica.com.br/produto/led-de-alto-brilho-azul)       | 2V/20mA      | R$ 0,27    |
+| 1     | [Transistor](https://www.baudaeletronica.com.br/produto/transistor-npn-bc368.html)       |  Transistor NPN - BC337      | R$ 0,55   |
 
-Valor Total: R$ 39,03
+Valor Total: R$ 46,54
+
+OBS.: A ponte retificadora pode ser mais barata (porém optamos em investir uma melhor para ser usada em outros projetos)
 
 ### Função dos Componentes
 
