@@ -195,7 +195,13 @@ OBS.: A ponte retificadora pode ser mais barata (porém optamos em investir uma 
 
 - Transistor: Utilizado para limitar a passagem de corrente diretamente para a saída. [DATASHEET](https://github.com/FerSuaiden/SSC0180-Eletronica/files/11995178/BC368.PDF)
 
-### Referências Bibliográficas
+### Vídeos do projeto funcionando
+
+
+
+https://github.com/FerSuaiden/SSC0180-Eletronica/assets/122469265/faed93b2-db19-4c16-be6c-2e7470608e04
+
+
 
 ### Resposáveis
 - Felipe da Costa Coqueiro
