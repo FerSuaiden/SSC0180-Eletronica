@@ -191,7 +191,7 @@ Valor Total: R$ 39,03
 
 - Potenciômetro: É um resistor com resistência variável. É utilizado para ajustar a tensão que vai para o transistor.
 
-- Transistor: Utilizado para limitar a passagem de corrente diretamente para a saída.
+- Transistor: Utilizado para limitar a passagem de corrente diretamente para a saída. [DATASHEET](https://github.com/FerSuaiden/SSC0180-Eletronica/files/11995178/BC368.PDF)
 
 ### Referências Bibliográficas
 
