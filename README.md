@@ -131,7 +131,7 @@ $$ V_{spmín} = 13 - V_{spmáx} - 0,7 → 3 = 13 - V_{spmáx} - 0,7 → V_{spmá
 
 (ii) Corrente no Resistor em Série com o Potenciômetro:
 
-$$ V_{ZENNER} = V_{spmáx} + V_{R2} → 13 = 9,3 + i_{R2} \cdot 2000 → i_{R2} = 1,85 mA $$
+$$ V_{ZENNER} = V_{spmáx} + V_{R2} → 13 = 9,3 + i_{R2} \cdot 2200 → i_{R2} = 1,68 mA $$
 
 (iii) Corrente na Base do Transistor:
 
